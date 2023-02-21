@@ -4,27 +4,35 @@
 <meta charset="utf-8">
 <meta name ="viewport" content="width=device-width, initial-scale=1.0">  
  <link rel ="stylesheet" href="css/styles.css">
- <script src="JS/javascript.js"></script>  
+ 
 <title>Hobby Page - tribute </title>
+ 
 
+   
+</script>
+<script type="text/javascript">
+    var now = new Date();
+    var Weekday = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+    var Month = new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+    document.write(Weekday[now.getDay()]+", "+Month[now.getMonth()]+" "+now.getDate()+", "+now.getFullYear());
+    </script>
+    
+    
 </head>
 <body>
 <div id="main"> <!--main div-->
-<header>
+  <header>
     <h1 id="title"> Martin Luther King  </h1> <!--id titke-->
-    <p id =first><em>"I have a dream"</em</p>
-</header>
-<div>
-<p id="date"> 
-  
-</p>
-</div>
-
-
+    <p id =first><em>"I have a dream"</em</p> 
+  </header>
+  <div>
+   <p id="date">
+    </p>
+  </div>
 <div id="img-div" > <!--start img div-->
 <img  id="image" src="images/martinLK.jpg" alt="Dr Martin Luther King" id="image">
 
-<figcaption id ="img-caption"><em>Civil rightd leader Martin Luther King jr. address the crowd at the Lincoln Memorial Washington DC </p>
+<figcaption id ="img-caption"><em>Civil rights leader Martin Luther King jr. address the crowd at the Lincoln Memorial Washington DC </p>
 </figcaption>   <!--end figcaption img -->
 </div> <!--end img div-->
 
@@ -122,7 +130,9 @@
     
 </ul>
 <p>
-<blockquote id="quote">"If you can't fly then run, if you can't run then walk, if you can't walk then crawl, but whatever you do you have to keep moving forward."</blockquote></p>
+<blockquote id="quote">"If you can't fly then run, 
+    if you can't run then walk,<br> if you can't walk then crawl,
+     but whatever you do<br> you have to keep moving forward."</blockquote></p>
 <p id ="third"> -&nbsp;Martin Luther King</p>
 
 
@@ -132,9 +142,9 @@
     Learn more about  Martin Luther King here: <a id="tribute-link" href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr._Day" target="_blank"> wikipedia entry</a>
 </h5>
 </div> <!--main div-->
-</footer><footer id="bottom">
+<footer id="bottom">
     <small>&copy; Copyright 2023 hobby page</small>
+</footer>
 </body><!--end of body-->
- 
 
 </html> |<!--end of html-->
