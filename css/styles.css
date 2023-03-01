@@ -9,19 +9,28 @@
 }
 
   
-    
-    
-  
 
 
 #title{
+    background-color: darkgray;
     text-align: center;
-     letter-spacing: 6px;
+     letter-spacing: 8px;
+     word-spacing: 2px;
+     text-transform: uppercase;
+     height: 100px;
+     padding-top: 40px;
+     box-shadow: 0 1px 3px;
+     text-shadow: 3px 3px 5px white;
+     font-size: 40px;
+     
 }
  p#first{
     text-align: center;
     
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-style: oblique;
+    
     
 }
 
@@ -38,9 +47,12 @@
 #image{
     display: block;
     max-width: 100%;
-    padding-bottom:10px;
-    margin-top:10px;
-    margin-right: 10px;
+    padding-bottom:0px;
+    margin: 0px 0px 10px 0px;
+    border-radius: 10px;
+    
+
+
 
 }
 
@@ -64,12 +76,28 @@
 }
 
 #unorder{
+    background-color: darkgray;
+    list-style: none;
     margin-bottom: 10px;
     line-height: 30px; ;
     font-family: Arial;
+    padding: 30px;
     
 }
+ul li {
+   background-color: lightgray;
+   margin: 20px;
+   padding: 10px 15px 10px 15px;
+   color: black;
+   text-align: center;
+   border-style:inset;
+   font-family:Arial, Helvetica, sans-serif;
+   
+   
+   
+   
 
+}
 #quote{
     text-align: center;
 }
@@ -82,10 +110,15 @@
 
 h5{
     text-align: center;
+    font-size: medium;
 }
 
 #bottom{
+    background-color: darkgray;
     clear: both;
     text-align: center;
     font-style: normal;
+    height: 50px;
+    padding-top: 10px;
+    margin-top: 2px;
 }
